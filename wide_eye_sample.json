@@ -1,0 +1,47 @@
+{
+  "S1": {
+    "request_id": "we-req-0001",
+    "status": "ok",
+    "generated_at": "2026-10-24T09:30:00Z",
+    "query": {"investment_amount": 100000, "currency": "USD", "domain": "finance"},
+    "recommendations": [
+      {"rank": 1, "vc_name": "Ribbit Capital", "domain_focus": "fintech", "investment_period_months": 12, "expected_profit_amount": 18000, "expected_profit_pct": 18.0, "claimed_confidence": 0.82, "risk_level": "medium"},
+      {"rank": 2, "vc_name": "Andreessen Horowitz", "domain_focus": "fintech", "investment_period_months": 12, "expected_profit_amount": 24000, "expected_profit_pct": 24.0, "claimed_confidence": 0.78, "risk_level": "high"},
+      {"rank": 3, "vc_name": "QED Investors", "domain_focus": "fintech", "investment_period_months": 12, "expected_profit_amount": 15000, "expected_profit_pct": 15.0, "claimed_confidence": 0.85, "risk_level": "medium"},
+      {"rank": 4, "vc_name": "Index Ventures", "domain_focus": "fintech", "investment_period_months": 6, "expected_profit_amount": 11000, "expected_profit_pct": 11.0, "claimed_confidence": 0.74, "risk_level": "medium"},
+      {"rank": 5, "vc_name": "Sequoia Capital", "domain_focus": "fintech", "investment_period_months": 12, "expected_profit_amount": 62000, "expected_profit_pct": 62.0, "claimed_confidence": 0.69, "risk_level": "high"}
+    ],
+    "stats": {"candidates_evaluated": 143, "avg_expected_profit_pct": 26.0, "model_version": "wide-eye-rec-v2.3", "data_as_of": "2026-10-23"},
+    "meta": {"_note": "MOCK DATA - fabricated for development; not real forecasts or real fund performance."}
+  },
+  "S2": {
+    "request_id": "we-req-0002",
+    "status": "ok",
+    "generated_at": "2026-10-24T09:41:00Z",
+    "query": {"investment_amount": 50000, "currency": "USD", "domain": "any"},
+    "recommendations": [
+      {"rank": 1, "vc_name": "Sequoia Capital", "domain_focus": "generalist", "investment_period_months": 12, "expected_profit_amount": 10000, "expected_profit_pct": 20.0, "claimed_confidence": 0.80, "risk_level": "medium"},
+      {"rank": 2, "vc_name": "Y Combinator", "domain_focus": "generalist", "investment_period_months": 12, "expected_profit_amount": 17500, "expected_profit_pct": 35.0, "claimed_confidence": 0.71, "risk_level": "high"},
+      {"rank": 3, "vc_name": "Accel", "domain_focus": "generalist", "investment_period_months": 6, "expected_profit_amount": 6000, "expected_profit_pct": 12.0, "claimed_confidence": 0.83, "risk_level": "medium"},
+      {"rank": 4, "vc_name": "Lightspeed Venture Partners", "domain_focus": "generalist", "investment_period_months": 12, "expected_profit_amount": 8000, "expected_profit_pct": 16.0, "claimed_confidence": 0.79, "risk_level": "medium"},
+      {"rank": 5, "vc_name": "Tiger Global Management", "domain_focus": "generalist", "investment_period_months": 6, "expected_profit_amount": 24000, "expected_profit_pct": 48.0, "claimed_confidence": 0.62, "risk_level": "high"}
+    ],
+    "stats": {"candidates_evaluated": 212, "avg_expected_profit_pct": 26.2, "model_version": "wide-eye-rec-v2.3", "data_as_of": "2026-10-23"},
+    "meta": {"_note": "MOCK DATA - fabricated for development; not real forecasts or real fund performance."}
+  },
+  "S3": {
+    "request_id": "we-req-0003",
+    "status": "ok",
+    "generated_at": "2026-10-24T09:55:00Z",
+    "query": {"investment_amount": 200000, "currency": "USD", "domain": "energy"},
+    "recommendations": [
+      {"rank": 1, "vc_name": "Breakthrough Energy Ventures", "domain_focus": "climate and energy", "investment_period_months": 12, "expected_profit_amount": 28000, "expected_profit_pct": 14.0, "claimed_confidence": 0.81, "risk_level": "medium"},
+      {"rank": 2, "vc_name": "Lowercarbon Capital", "domain_focus": "climate and energy", "investment_period_months": 12, "expected_profit_amount": 34000, "expected_profit_pct": 17.0, "claimed_confidence": 0.76, "risk_level": "high"},
+      {"rank": 3, "vc_name": "Energy Impact Partners", "domain_focus": "utility and energy transition", "investment_period_months": 6, "expected_profit_amount": 16000, "expected_profit_pct": 8.0, "claimed_confidence": 0.84, "risk_level": "low"},
+      {"rank": 4, "vc_name": "Khosla Ventures", "domain_focus": "energy and deep tech", "investment_period_months": 12, "expected_profit_amount": 44000, "expected_profit_pct": 22.0, "claimed_confidence": 0.77, "risk_level": "high"},
+      {"rank": 5, "vc_name": "Helios Peak Ventures", "domain_focus": "renewable energy", "investment_period_months": 12, "expected_profit_amount": 110000, "expected_profit_pct": 55.0, "claimed_confidence": 0.58, "risk_level": "high"}
+    ],
+    "stats": {"candidates_evaluated": 98, "avg_expected_profit_pct": 23.2, "model_version": "wide-eye-rec-v2.3", "data_as_of": "2026-10-23"},
+    "meta": {"_note": "MOCK DATA - fabricated for development; not real forecasts or real fund performance. 'Helios Peak Ventures' is a fictional firm used to exercise the Non-accessible path."}
+  }
+}
